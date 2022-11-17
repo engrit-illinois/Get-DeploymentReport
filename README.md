@@ -13,9 +13,9 @@ Note: this module is currently written specifically for use in the College of En
 Must be run on a computer with the SCCM console app installed, and run by a user with SCCM permissions.
 
 # Usage
-1. Download `Get-DeploymentReport.psm1` to `$HOME\Documents\WindowsPowerShell\Modules\Get-DeploymentReport\Get-DeploymentReport.psm1`.
+1. Download `Get-DeploymentReport.psm1` to the appropriate subdirectory of your PowerShell [modules directory](https://github.com/engrit-illinois/how-to-install-a-custom-powershell-module).
 2. Run it.
-  - e.g. `Get-DeploymentReport -Log ":ENGRIT:" -Csv ":ENGRIT:"`
+    - e.g. `Get-DeploymentReport -Log ":ENGRIT:" -Csv ":ENGRIT:"`
 3. Review the generated CSV.
 
 # Notes
